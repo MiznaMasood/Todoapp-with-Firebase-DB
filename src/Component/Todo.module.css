@@ -1,0 +1,124 @@
+.body{
+    background-color: #fda085;
+}
+.appContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #e3192e 100%);
+    min-height: 100vh;
+  }
+  
+  .appHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .appHeader h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px #ff7f50;
+  }
+  
+  .todoInputSection {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 30px;
+    background-color: #ffffffaa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .todoInputSection label {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .todoInputSection input {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .todoInputSection button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todoInputSection button:hover {
+    background-color: #ff6347;
+  }
+  
+  .todoListSection {
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .todoItem {
+    background-color: #ffffffaa;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todoItem h2 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .todoItem p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+
+  
+   .iconButton {
+    background: linear-gradient(145deg, #ff7e5f, #feb47b); 
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease; 
+  }
+  
+  .iconButton:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+    background: linear-gradient(145deg, #ff6f61, #fd9068); 
+  }
+  
+  .iconButton:active {
+    transform: translateY(1px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .iconButton svg {
+    font-size: 20px; 
+  }
+  
+  
